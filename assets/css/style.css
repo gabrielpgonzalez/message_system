@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(75, 75, 75);
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  color: black;
+  align-items: center;
+  min-height: 100vh;
+  border: 2px solid black;
+}
+
+.profile-pictures {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+
+.chat {
+  display: flex;
+  border: 2px solid black;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1.2rem;
+}
+
+.chat-p {
+  max-height: 30px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.chat-i {
+  text-align: left;
+}
+
+.div-boton {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.boton {
+  border: 1px solid #710101;
+  padding: 10px;
+  background-color: #710101;
+  color: #000000;
+  text-decoration: none; /*decoración texto*/
+  border-radius: 10px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+.icons a {
+  color: #000000;
+}
+
+/* SECTION MAIN */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.main img {
+  width: 800px;
+  margin-bottom: 0.5rem;
+}
+
+.main h3 {
+  font-size: 45px;
+}
+
+.description {
+  width: 35rem;
+  text-align: center;
+  padding: 0rem;
+}
